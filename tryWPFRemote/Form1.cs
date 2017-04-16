@@ -113,6 +113,7 @@ namespace WPFRemoteController
             this.axRDPViewer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axRDPViewer.OcxState")));
             this.axRDPViewer.Size = new System.Drawing.Size(860, 354);
             this.axRDPViewer.TabIndex = 0;
+            this.axRDPViewer.Enter += new System.EventHandler(this.axRDPViewer_Enter_1);
             // 
             // button1
             // 
@@ -237,6 +238,11 @@ namespace WPFRemoteController
         private void button5_Click(object sender, EventArgs e)
         {
             keyMouse.keyDisable();
+        }
+
+        private void axRDPViewer_Enter_1(object sender, EventArgs e)
+        {
+
         }
 
        

@@ -38,13 +38,13 @@ namespace WPFRemoteController
             // Create the MaskedTextBox control.
             MaskedTextBox mtbDate = new MaskedTextBox("00/00/0000");
 
-            Form1 a = new Form1();
-            a.TopLevel = false;
+            Form1 form = new Form1();
+            form.TopLevel = false;
 
            // WindowsFormsHost Host = new WindowsFormsHost();
 
             // Assign the MaskedTextBox control as the host control's child.
-            host.Child = a;
+            host.Child = form;
 
             //Host.Child = a;
 
@@ -54,6 +54,11 @@ namespace WPFRemoteController
             // Add the interop host control to the Grid
             // control's collection of child controls.
             this.grid1.Children.Add(host);
+        }
+
+        private void grid1_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
