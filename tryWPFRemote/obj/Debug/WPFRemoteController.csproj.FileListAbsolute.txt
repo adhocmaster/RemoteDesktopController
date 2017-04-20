@@ -8,8 +8,6 @@ c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\bi
 c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\Interop.MSTSCLib.dll
 c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\AxInterop.MSTSCLib.dll
 c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\WPFRemoteController.csproj.ResolveComReference.cache
-c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\MainWindow.baml
-c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\MainWindow.g.cs
 c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\App.g.cs
 c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\tryWPFRemote_MarkupCompile.cache
 c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\tryWPFRemote.g.resources
@@ -20,3 +18,9 @@ c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\ob
 c:\users\acer\documents\visual studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\tryWPFRemote.pdb
 C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\WPFRemoteController.csprojResolveAssemblyReference.cache
 C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\bin\Debug\mousekeyboardactivitymonitor.dll
+C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\tryWPFRemote.exe.manifest
+C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\bin\Debug\tryWPFRemote.exe.manifest
+C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\bin\Debug\tryWPFRemote.application
+C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\tryWPFRemote.application
+C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\MainWindow.baml
+C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\MainWindow.g.cs

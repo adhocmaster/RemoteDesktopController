@@ -20,6 +20,7 @@ using System.Diagnostics;
 
 namespace WPFRemoteController
 {
+
     public class Form1 : Form
     {
         private Button button1;
@@ -33,14 +34,27 @@ namespace WPFRemoteController
 
         private AxRDPCOMAPILib.AxRDPViewer axRDPViewer;
         private Label label2;
+        private Button button7;
 
         KeyboardMouseControl keyMouse = new KeyboardMouseControl();
 
+        
         public Form1()
         {
             InitializeComponent();
-
+        
         }
+
+        public void disableControl()
+        {
+            this.Enabled = false;
+        }
+
+        public void enableControl()
+        {
+            this.Enabled = true;
+        }
+
 
         
         public static void Connect(string invitation, AxRDPViewer display, string userName, string password)
@@ -102,6 +116,7 @@ namespace WPFRemoteController
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.axRDPViewer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -144,7 +159,7 @@ namespace WPFRemoteController
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(573, 392);
+            this.button2.Location = new System.Drawing.Point(609, 393);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(132, 23);
             this.button2.TabIndex = 4;
@@ -164,7 +179,7 @@ namespace WPFRemoteController
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(573, 437);
+            this.button4.Location = new System.Drawing.Point(609, 436);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(132, 26);
             this.button4.TabIndex = 6;
@@ -185,15 +200,26 @@ namespace WPFRemoteController
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(194, 392);
+            this.label2.Location = new System.Drawing.Point(232, 393);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(241, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Press esc anytime to enable mouse and keyboard";
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(511, 443);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "Disconnect";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(910, 480);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -204,6 +230,7 @@ namespace WPFRemoteController
             this.Controls.Add(this.button1);
             this.Controls.Add(this.axRDPViewer);
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.axRDPViewer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -243,6 +270,24 @@ namespace WPFRemoteController
         private void axRDPViewer_Enter_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            disableControl();
+            //Thread.Sleep(new TimeSpan(0, 0, 30));
+            //enableControl();
+          
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            disconnect(this.axRDPViewer);
         }
 
        
