@@ -57,7 +57,7 @@ namespace WPFRemoteController
 
 
         
-        private static void connect(string invitation, AxRDPViewer display, string userName, string password)
+        public static void Connect(string invitation, AxRDPViewer display, string userName, string password)
         {
             display.Connect(invitation, userName, password);
         }
@@ -73,7 +73,7 @@ namespace WPFRemoteController
         {
             try
             {
-                connect(textConnectionString.Text, this.axRDPViewer, "", "");
+                Connect(textConnectionString.Text, this.axRDPViewer, "", "");
             }
             catch (Exception)
             {
@@ -122,30 +122,13 @@ namespace WPFRemoteController
             // 
             // axRDPViewer
             // 
-
-            
             this.axRDPViewer.Enabled = true;
             this.axRDPViewer.Location = new System.Drawing.Point(22, 12);
             this.axRDPViewer.Name = "axRDPViewer";
             this.axRDPViewer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axRDPViewer.OcxState")));
             this.axRDPViewer.Size = new System.Drawing.Size(860, 354);
             this.axRDPViewer.TabIndex = 0;
-
-           // SizeF f= new SizeF(0.2F, 0.2F);
-           
-           // this.axRDPViewer.Scale(f);
-            
-           // this.Scale(f);
-
-           
-
-            //Rectangle temp = new Rectangle(30,40,50,60);
-
-            //Rectangle r = this.axRDPViewer.RectangleToScreen(temp);
-
-            //this.axRDPViewer.Size = new System.Drawing.Size(r.Width,r.Height);
-            
-            
+            this.axRDPViewer.Enter += new System.EventHandler(this.axRDPViewer_Enter_1);
             // 
             // button1
             // 
@@ -289,7 +272,6 @@ namespace WPFRemoteController
 
         }
 
-        /*
         private void button6_Click(object sender, EventArgs e)
         {
             disableControl();
@@ -297,7 +279,6 @@ namespace WPFRemoteController
             //enableControl();
           
         }
-        */
 
         private void Form1_Load_1(object sender, EventArgs e)
         {
