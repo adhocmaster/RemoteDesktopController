@@ -60,6 +60,7 @@ namespace WPFRemoteController
         public static void Connect(string invitation, AxRDPViewer display, string userName, string password)
         {
             display.Connect(invitation, userName, password);
+            display.SmartSizing = true;
         }
 
         public static void disconnect(AxRDPViewer display)
@@ -129,6 +130,8 @@ namespace WPFRemoteController
             this.axRDPViewer.Size = new System.Drawing.Size(860, 354);
             this.axRDPViewer.TabIndex = 0;
             this.axRDPViewer.Enter += new System.EventHandler(this.axRDPViewer_Enter_1);
+
+            
             // 
             // button1
             // 
