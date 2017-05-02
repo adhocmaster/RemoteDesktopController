@@ -61,6 +61,7 @@ namespace WPFRemoteController
         {
             display.Connect(invitation, userName, password);
             display.SmartSizing = true;
+            //display.Dock = DockStyle.Fill;
         }
 
         public static void disconnect(AxRDPViewer display)
