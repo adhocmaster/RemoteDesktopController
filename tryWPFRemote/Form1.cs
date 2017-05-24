@@ -57,7 +57,7 @@ namespace WPFRemoteController
 
 
         
-        public static void Connect(string invitation, AxRDPViewer display, string userName, string password)
+        private static void connect(string invitation, AxRDPViewer display, string userName, string password)
         {
             display.Connect(invitation, userName, password);
             display.SmartSizing = true;
@@ -71,18 +71,30 @@ namespace WPFRemoteController
 
         
         
-        public void takeControl()
+        public void takeUnprotectedControl()
         {
             try
             {
-                Connect(textConnectionString.Text, this.axRDPViewer, "", "");
+                connect(textConnectionString.Text, this.axRDPViewer, "", "");
             }
             catch (Exception)
             {
                 MessageBox.Show("Unable to connect to the Server");
             }
         }
-        
+
+        public void takeProtectedControl(String userName,String password)
+        {
+            try
+            {
+                connect(textConnectionString.Text, this.axRDPViewer, userName, password); //you can type any username
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Unable to connect to the Server");
+            }
+        }
+
 
         private void textConnectionString_TextChanged(object sender, EventArgs e)
         {
@@ -248,7 +260,7 @@ namespace WPFRemoteController
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            takeControl();
+            takeUnprotectedControl();
         }
 
         private void button2_Click(object sender, EventArgs e)
