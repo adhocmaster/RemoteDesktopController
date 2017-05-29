@@ -66,10 +66,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AxInterop.RDPCOMAPILib">
-      <HintPath>D:\RDP\RDP\Simple RDP Client\Simple RDP Client\bin\Debug\AxInterop.RDPCOMAPILib.dll</HintPath>
+      <HintPath>lib\AxInterop.RDPCOMAPILib.dll</HintPath>
     </Reference>
     <Reference Include="mousekeyboardactivitymonitor">
-      <HintPath>..\..\..\..\..\Downloads\mousekeyboardactivitymonitor.dll</HintPath>
+      <HintPath>lib\mousekeyboardactivitymonitor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -161,6 +161,15 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+    <COMReference Include="RDPCOMAPILib">
+      <Guid>{CC802D05-AE07-4C15-B496-DB9D22AA0A84}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -178,6 +187,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\keyboard-mouseHook\WpfApplication1\KeyboardMouseActivity.csproj">
+      <Project>{e600c415-7a79-49b9-a4ca-6d03b11b2e9d}</Project>
+      <Name>KeyboardMouseActivity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

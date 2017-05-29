@@ -24,3 +24,31 @@ C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\bi
 C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\tryWPFRemote.application
 C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\MainWindow.baml
 C:\Users\Acer\Documents\Visual Studio 2013\Projects\tryWPFRemote\tryWPFRemote\obj\Debug\MainWindow.g.cs
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\tryWPFRemote.exe.config
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\tryWPFRemote.exe.manifest
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\tryWPFRemote.application
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\tryWPFRemote.exe
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\tryWPFRemote.pdb
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\AxInterop.RDPCOMAPILib.dll
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\mousekeyboardactivitymonitor.dll
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\WpfApplication1.exe
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\WpfApplication1.pdb
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\Interop.MSTSCLib.dll
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\bin\Debug\AxInterop.MSTSCLib.dll
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\WPFRemoteController.csprojResolveAssemblyReference.cache
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\Interop.MSTSCLib.dll
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\Interop.RDPCOMAPILib.dll
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\AxInterop.MSTSCLib.dll
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\WPFRemoteController.csproj.ResolveComReference.cache
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\MainWindow.baml
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\MainWindow.g.cs
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\App.g.cs
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\tryWPFRemote_MarkupCompile.cache
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\tryWPFRemote.g.resources
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\WPFRemoteController.Form1.resources
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\WPFRemoteController.Properties.Resources.resources
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\WPFRemoteController.csproj.GenerateResource.Cache
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\tryWPFRemote.exe.manifest
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\tryWPFRemote.application
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\tryWPFRemote.exe
+E:\projects\wpf\RemoteDesktopController\tryWPFRemote\obj\Debug\tryWPFRemote.pdb

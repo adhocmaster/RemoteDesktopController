@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.MSTSCLib.dll" size="339968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.MSTSCLib.dll" size="209920">
       <assemblyIdentity name="AxInterop.MSTSCLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dzK8VefwbiXGdPo23B5CSWyJKXaXsjtx6LUw522JB+w=</dsig:DigestValue>
+        <dsig:DigestValue>8bKiPaNa0Bs4M1gsQwoQ+a0tjFD2raWXpQJO4uH57fA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -66,26 +66,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSTSCLib.dll" size="600064">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSTSCLib.dll" size="360960">
       <assemblyIdentity name="Interop.MSTSCLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>8ehdYptqQZY5CoQLJmHU+DUj0NoCXaOe30tB7SV+WYE=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.RDPCOMAPILib.dll" size="54784">
-      <assemblyIdentity name="Interop.RDPCOMAPILib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>j6rGJ3B1QmjTVyQ3qAWeIUhYyMkkMCS8RZLCOpCUIrQ=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>vaGBOtSpqnyRrPD0piSjhMjGbP+jKNOFhX+YSeeGHBQ=</dsig:DigestValue>
+>>>>>>> muktadir
       </hash>
     </dependentAssembly>
   </dependency>
@@ -97,7 +89,11 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
+        <dsig:DigestValue>j6rGJ3B1QmjTVyQ3qAWeIUhYyMkkMCS8RZLCOpCUIrQ=</dsig:DigestValue>
+=======
         <dsig:DigestValue>0nH2d0LxDLSJw0nCZ2ZtYXfmkpotf5RrY1/9oq+dDsc=</dsig:DigestValue>
+>>>>>>> muktadir
       </hash>
     </dependentAssembly>
   </dependency>
@@ -109,7 +105,23 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>p1DdAHiZVCm/NBf8OcuT1SLijnDlZY/w55QeWnmNFgs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfApplication1.exe" size="14336">
+      <assemblyIdentity name="WpfApplication1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>3uNEZZVQY4qeGdtPngSXqxSs+hqCyTTKrcivuDet1bw=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>IOg07r6ywipBBqwveLapmcElfYhdrXpRg2Ji966hGcw=</dsig:DigestValue>
+>>>>>>> muktadir
       </hash>
     </dependentAssembly>
   </dependency>
